@@ -146,3 +146,14 @@ console.log(string3.match('JavaScript'))
 
 //20. repeat() it takes a number as argument and it returns the repeated version of the string.
 console.log(string3.repeat(3))
+
+//converting string to int
+let num1 = '10'
+let numInt = parseInt(num1)
+console.log(numInt)
+
+let numInt2 = Number(num1)
+console.log(numInt2)
+
+let numInt3 = +num1;
+console.log(numInt3)
