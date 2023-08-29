@@ -157,3 +157,17 @@ console.log(numInt2)
 
 let numInt3 = +num1;
 console.log(numInt3)
+
+//Converting string to a float
+let num3 = 13.54;
+
+let numFloat1 = parseFloat(num3);
+console.log(numFloat1);
+
+let numFloat2 = Number(num3);
+console.log(numFloat2);
+
+let numFloat3 = +num3;
+console.log(numFloat3);
+
+//
