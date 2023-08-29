@@ -115,3 +115,6 @@ console.log(string3.includes('of'))
 console.log(string3.replace('JavaScript', 'Python'))
 console.log(string3.replace('JavaScript', 'React'))
 
+//11.charAt(): Takes index and it returns the value at that index
+console.log(string3.charAt(2))
+console.log(string3.charAt(6))
