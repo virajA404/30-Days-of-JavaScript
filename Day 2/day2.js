@@ -130,3 +130,10 @@ console.log(string3.lastIndexOf('Java'))
 
 //15. concat() Takes many substring and joins them together
 console.log(string3.concat('I ', 'love ', 'it.'))
+
+//16. startsWith: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
+console.log(string3.startsWith('30'))
+
+//17. endsWith: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
+console.log(string3.endsWith('d'))
+
