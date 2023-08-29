@@ -81,3 +81,31 @@ console.log(string1.toLowerCase());
 //5. substr(): It takes two arguments, the starting index and number of characters to slice. - not is use
 console.log(string1.substr(2,5))
 console.log(string1.substr(3,4))
+
+//6.substring()  It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
+console.log(string.substring(0,4))
+console.log(string.substring(3,10))
+console.log(string.substring(3,9))
+
+//7.split() The split method splits a string at a specified place.
+let string3 = '30 Days Of JavaScript  '
+
+console.log(string3.split(''))     // Changes to an array -> ["30 Days Of JavaScript"]
+console.log(string3.split(', '))
+
+let firstName = 'Asabeneh'
+
+console.log(firstName.split())    // Change to an array - > ["Asabeneh"]
+console.log(firstName.split(''))
+
+let countries = 'Finland, Sweden, Norway, Denmark, and Iceland'
+
+console.log(countries.split(','))  // split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(', '))
+
+//8. trim() The trim method removes whitespace in the beginning and end of the string.
+console.log(string3.trim(' '))
+
+// 9. includes(): It takes a substring argument and it checks if substring argument 
+// exists in the string. includes() returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
+
