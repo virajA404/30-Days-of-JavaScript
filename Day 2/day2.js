@@ -121,3 +121,6 @@ console.log(string3.charAt(6))
 
 //12.charCodeAt(): Takes index and it returns char code (ASCII number) of the value at that index
 console.log(string3.charCodeAt(3))
+
+//13. indexOf(): Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+console.log(string3.indexOf('q'))
