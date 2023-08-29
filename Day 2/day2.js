@@ -77,3 +77,7 @@ console.log(string1.toUpperCase())
 
 //4 toLowerCase()
 console.log(string1.toLowerCase());
+
+//5. substr(): It takes two arguments, the starting index and number of characters to slice. - not is use
+console.log(string1.substr(2,5))
+console.log(string1.substr(3,4))
