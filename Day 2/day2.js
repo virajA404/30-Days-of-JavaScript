@@ -118,3 +118,6 @@ console.log(string3.replace('JavaScript', 'React'))
 //11.charAt(): Takes index and it returns the value at that index
 console.log(string3.charAt(2))
 console.log(string3.charAt(6))
+
+//12.charCodeAt(): Takes index and it returns char code (ASCII number) of the value at that index
+console.log(string3.charCodeAt(3))
