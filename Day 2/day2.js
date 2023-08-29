@@ -137,3 +137,8 @@ console.log(string3.startsWith('30'))
 //17. endsWith: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 console.log(string3.endsWith('d'))
 
+//18. search: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or a regular expression pattern.
+console.log(string3.search(/days/gi))
+
+//19. match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
+console.log(string3.match())
