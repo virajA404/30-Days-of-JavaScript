@@ -170,4 +170,5 @@ console.log(numFloat2);
 let numFloat3 = +num3;
 console.log(numFloat3);
 
-//
+//converting float to int
+console.log(parseInt(num3))
