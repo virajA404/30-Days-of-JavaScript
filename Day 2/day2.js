@@ -124,3 +124,6 @@ console.log(string3.charCodeAt(3))
 
 //13. indexOf(): Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
 console.log(string3.indexOf('q'))
+
+//14. lastIndexOf() Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+console.log(string3.lastIndexOf('Java'))
