@@ -55,3 +55,18 @@ let a = 4
 let b = 5
 console.log(`The sum of ${a} and ${b} is ${a +b}`)
 
+//String methods
+
+//1 length:
+let name2 = "Viraj "
+console.log(name2.length)
+
+//2 accessing characters in a string
+let string = "Javascript"
+let firstLetter = string[0]
+console.log(firstLetter)
+let secondLetter = string[1]
+console.log(secondLetter)
+
+let lastLetter = string[string.length-1]
+console.log(lastLetter)
