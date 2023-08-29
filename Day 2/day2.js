@@ -110,3 +110,8 @@ console.log(string3.trim(' '))
 // exists in the string. includes() returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
 console.log(string3.includes('Days '))
 console.log(string3.includes('of'))
+
+//10. replace(): takes as a parameter the old substring and a new substring.
+console.log(string3.replace('JavaScript', 'Python'))
+console.log(string3.replace('JavaScript', 'React'))
+
