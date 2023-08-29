@@ -70,3 +70,10 @@ console.log(secondLetter)
 
 let lastLetter = string[string.length-1]
 console.log(lastLetter)
+
+//3 toUpperCase()
+let string1 = "Viraj"
+console.log(string1.toUpperCase())
+
+//4 toLowerCase()
+console.log(string1.toLowerCase());
