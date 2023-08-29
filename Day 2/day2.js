@@ -127,3 +127,6 @@ console.log(string3.indexOf('q'))
 
 //14. lastIndexOf() Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 console.log(string3.lastIndexOf('Java'))
+
+//15. concat() Takes many substring and joins them together
+console.log(string3.concat('I ', 'love ', 'it.'))
