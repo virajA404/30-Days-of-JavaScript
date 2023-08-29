@@ -108,4 +108,5 @@ console.log(string3.trim(' '))
 
 // 9. includes(): It takes a substring argument and it checks if substring argument 
 // exists in the string. includes() returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
-
+console.log(string3.includes('Days '))
+console.log(string3.includes('of'))
