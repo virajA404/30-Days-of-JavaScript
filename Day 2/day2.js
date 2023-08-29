@@ -143,3 +143,6 @@ console.log(string3.search(/days/gi))
 //19. match: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
 console.log(string3.match(/Javascript/gi))
 console.log(string3.match('JavaScript'))
+
+//20. repeat() it takes a number as argument and it returns the repeated version of the string.
+console.log(string3.repeat(3))
